@@ -97,8 +97,9 @@ print(practice)
 
 #to append all of the elements in two lists, use the EXTEND method:
 practice_2 = ["e", "f", "g", "h", "i", "j", "k"]
-practice.extend(practice_2)
+practice.extend(practice_2) #take "practice" and "extend it" with the "practice_2" variable
 print(practice)     #now you'll have elements from practice and practice_2 put together
+#using EXTEND will leave the second variable ("practice_2" here) alone, i.e. it doesn't change
 
 #it's worth noting that in the example above, it leaves practice_2 unmodified
 
@@ -107,6 +108,9 @@ messy = ["t", "e", "q", "a", "h", "j", "o"]
 print(messy)
 messy.sort()
 print(messy)    #worth noting that the sort method will irrevocably alter the order in the original list
+
+'''it's worth noting that list methods are VOID....you wouldn't ever write them as "t = t.sort()"...
+just write "t.sort()" instead...'''
 
 #you can DELETE elements from a list in a couple different ways
 #one way is to use the POP method, which keeps the removed element(s) in the new variable that you create for it
