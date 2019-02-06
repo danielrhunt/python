@@ -1,3 +1,3 @@
 # python
-A place to house all the various Python scripts and programs I've put together.
-Much of this was inspired by Charles Severance, and his test "Python for Everybody".  Some of the files here represent my notes, from the text and elsewhere, and included working examples.
+A place to house some various Python scripts and programs I've put together while learning the language.
+Much of this was inspired by Charles Severance, and his test "Python for Everybody".  Some of the files here represent my notes, from the text and elsewhere, and may included working examples.
