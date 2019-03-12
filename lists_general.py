@@ -193,6 +193,16 @@ print(type(t))
 '''after you've used the split method to break a string into a list of words, you can use the index operator to look at specific words'''
 print(t[2])
 
+'''also, check out this important aspect of using SPLIT:'''
+
+t = "pining for the jungle"
+print(t)
+print(type(t))
+g = t.split()   #using SPLIT method automatically converts to list, so no need to do that in separate step
+print(g)
+print(type(g))
+print(g[0])
+
 '''if needed, you can invoke split with a special argument called a DELIMITER
 the delimiter specifies which characters to use as word boundaries
 this can be helpful with oddly formatted data'''
@@ -212,6 +222,15 @@ delimiter = "-"
 fixed_example = example.split(delimiter)
 print(fixed_example)
 print(type(fixed_example))
+
+example = "spam-:timmy-:gobbles-:test"
+print(example)
+print(type(example))
+delimiter_1 = "-:"
+#delimiter_2 = ":"
+test = example.split(delimiter_1)
+print(test)
+print(type(test))
 
 '''the inverse of split is JOIN, which is used to take a list of strings and concatenate the elements
 join is a string method, so yuou invoke it on the delimiter and pass the list as a parameter
